@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Network Monitor | Mi Portafolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body class="bg-slate-950 text-slate-100">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 border-b border-slate-800/70 bg-slate-950/70 backdrop-blur">
+        <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="../assets/images/avatar.png" alt="Tu foto"
+                    class="h-10 w-10 rounded-xl object-cover ring-1 ring-slate-800" />
+                <div>
+                    <p class="font-semibold leading-tight">Jesus Ramirez</p>
+                    <p class="text-xs text-slate-400 leading-tight">Portafolio</p>
+                </div>
+            </div>
+
+            <nav class="flex items-center gap-4 text-sm">
+                <a class="hover:text-white text-slate-300" href="../index.html">Inicio</a>
+                <a class="hover:text-white text-slate-300" href="../index.html#proyectos">Proyectos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 py-10">
+        <a href="../index.html#proyectos" class="inline-flex items-center gap-2 text-slate-300 hover:text-white mb-6">
+            ← Volver a proyectos
+        </a>
+
+        <section class="rounded-3xl border border-slate-800/70 bg-slate-900/30 p-6 md:p-10">
+            <h1 class="text-3xl md:text-5xl font-bold">
+                Network Monitor
+            </h1>
+
+            <p class="mt-5 text-slate-300 max-w-3xl leading-relaxed">
+                <!-- CAMBIAR: 2-3 líneas qué problema resuelve, qué aporta y qué te gustó construir -->
+                NetMonitor Pro es una plataforma de telemetría de red en tiempo real que optimiza la gestión de
+                infraestructuras críticas mediante el uso de SNMP y Python.
+                Su arquitectura asíncrona permite diagnosticar y visualizar el rendimiento de nodos de forma proactiva,
+                eliminando cuellos de botella y mejorando drásticamente
+                la eficiencia operativa de la red.
+            </p>
+
+            <!-- Tecnologías -->
+            <div class="mt-6 grid gap-3 md:grid-cols-2">
+                <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+                    <p class="text-xs text-slate-400">Django / Python</p>
+                    <p class="font-semibold mt-1 text-slate-100">
+                        <!-- CAMBIAR -->
+                    </p>
+                </div>
+                <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+                    <p class="text-xs text-slate-400">SNMP & ICMP (Protocolos de Red)</p>
+                    <p class="font-semibold mt-1 text-slate-100">
+                        <!-- CAMBIAR -->
+                    </p>
+                </div>
+            </div>
+
+            <!-- Rol / Fecha / Estado -->
+            <div class="mt-6 grid gap-4 md:grid-cols-3">
+                <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-5">
+                    <p class="text-xs text-slate-400">Rol</p>
+                    <p class="font-semibold mt-2">Production engineering</p>
+                </div>
+
+                <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-5">
+                    <p class="text-xs text-slate-400">Fecha</p>
+                    <p class="font-semibold mt-2">2026</p>
+                </div>
+
+                <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-5">
+                    <p class="text-xs text-slate-400">Estado</p>
+                    <p class="font-semibold mt-2">Proyecto finalizado</p>
+                </div>
+            </div>
+
+            <!-- Demo + Detalles -->
+            <div class="mt-8 grid gap-6 lg:grid-cols-3 lg:items-start">
+
+                <!-- Columna demo (como tu 01) -->
+                <div class="lg:col-span-1">
+                    <h3 class="text-sm text-slate-400">Ver demo</h3>
+
+                    <div class="mt-3 rounded-2xl border border-slate-800/70 bg-slate-950/30 overflow-hidden">
+                        <video src="../assets/videos/project-03/demo.mp4" controls playsinline
+                            class="w-full h-72 object-cover bg-black">
+                            Tu navegador no soporta video.
+                        </video>
+                    </div>
+
+                    <a href="https://github.com/ramirezgerdez-star/Networ-Monitor/blob/main/README%20.md"
+                        class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-4 py-2 text-sm hover:text-white text-slate-300">
+                        Detalles
+                    </a>
+
+                </div>
+
+                <div class="lg:col-span-2" id="detalles">
+                    <h3 class="text-sm text-slate-400">Descripción</h3>
+
+                    <div class="mt-3 rounded-2xl border border-slate-800/70 bg-slate-950/30 p-5">
+                        <h4 class="text-xl font-bold">
+                            NetMonitor Pro: plataforma integral de monitoreo de red.
+                        </h4>
+
+                        <p class="mt-3 text-slate-300 leading-relaxed">
+                            Que automatiza la gestión de infraestructuras críticas mediante telemetría avanzada. Su
+                            arquitectura, basada en la optimización
+                            de procesos de red, reduce drásticamente los tiempos de diagnóstico, permitiendo a los
+                            administradores anticiparse a los fallos en lugar de solo reaccionar ante ellos.
+                        </p>
+
+                        <h4 class="mt-6 text-sm text-slate-400">🎯 Objetivos de Negocio</h4>
+                        <ul class="mt-3 space-y-2 text-slate-300 list-disc pl-5">
+                            <li>
+                                Minimizar el tiempo de inactividad (downtime) mediante detección proactiva.
+                            </li>
+                            <li>
+                                Centralizar la visibilidad de hardware heterogéneo en una sola consola.
+                            </li>
+                            <li>
+                                Optimizar la capacidad de respuesta ante saturación de tráfico.
+                            </li>
+                        </ul>
+
+                        <h4 class="mt-6 text-sm text-slate-400">👥 Usuarios</h4>
+                        <ul class="mt-3 space-y-2 text-slate-300 list-disc pl-5">
+                            <li>
+                                Administradores de sistemas y redes.
+                            </li>
+                            <li>
+                                Equipos de soporte técnico nivel 2 y 3
+                            </li>
+                        </ul>
+
+                        <h4 class="mt-6 text-sm text-slate-400">⚠️ El Problema</h4>
+                        <p class="mt-3 text-slate-300 leading-relaxed">
+                            Las herramientas tradicionales de monitoreo son a menudo lentas, costosas o requieren
+                            configuraciones complejas que bloquean los recursos del sistema durante la consulta de
+                            datos.
+                        </p>
+
+                        <h4 class="mt-6 text-sm text-slate-400">💡 La Solución</h4>
+                        <p class="mt-3 text-slate-300 leading-relaxed">
+                            Desarrollé una arquitectura de workers asíncronos en Python que desacoplan la recolección de
+                            datos de la interfaz web. Esto permite mantener una tasa de actualización en tiempo real
+                            sin sobrecargar el servidor, aplicando algoritmos de sondeo optimizados para no saturar los
+                            dispositivos monitoreados.
+                        </p>
+
+                        <h4 class="mt-6 text-sm text-slate-400">🚀 Resultados y Aprendizajes</h4>
+                        <ul class="mt-3 space-y-2 text-slate-300 list-disc pl-5">
+                            <li>
+                                Dominio avanzado de SNMP con Python para la extracción de métricas críticas.
+                            </li>
+                            <li>
+                                Implementación de arquitectura asíncrona para mejorar la escalabilidad del sistema.
+                            </li>
+                            <li>
+                                Optimización de la experiencia de usuario mediante gráficos dinámicos que reflejan el
+                                estado real de la red en tiempo real.
+                            </li>
+                        </ul>
+
+                        <div class="mt-8 grid gap-4 md:grid-cols-2">
+                            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+                                <p class="text-xs text-slate-400">Recursos</p>
+                                <div class="mt-3 flex flex-wrap gap-3">
+                                    <a href="https://github.com/ramirezgerdez-star/Networ-Monitor/tree/main"
+                                        class="text-slate-200 hover:text-white text-sm">
+                                        💻 Código en GitHub
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+                                <p class="text-xs text-slate-400">Stack</p>
+                                <div class="mt-3 flex flex-wrap gap-2">
+                                    <span
+                                        class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">SNMP</span>
+                                    <span
+                                        class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">Python</span>
+                                    <span
+                                        class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">Chart.js</span>
+                                    <span
+                                        class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">JS</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mini galería -->
+                        <div class="mt-8">
+                            <h3 class="font-semibold text-slate-200">Imágenes</h3>
+                            <div class="mt-3 grid grid-cols-2 gap-3">
+                                <img src="../assets/images/project-03/screen-1.png" alt="Screen 1 Proyecto 03"
+                                    class="w-full h-40 md:h-48 object-cover object-top rounded-xl border border-slate-800/70 bg-slate-950/40 cursor-pointer transition-transform duration-200 hover:scale-[1.02] hover:border-slate-600"
+                                    loading="lazy" onclick="openModal(this.src, this.alt)" />
+
+                                <img src="../assets/images/project-03/screen-2.png" alt="Screen 2 Proyecto 01"
+                                    class="w-full h-40 md:h-48 object-cover object-top rounded-xl border border-slate-800/70 bg-slate-950/40 cursor-pointer transition-transform duration-200 hover:scale-[1.02] hover:border-slate-600"
+                                    loading="lazy" onclick="openModal(this.src, this.alt)" />
+                            </div>
+                        </div>
+
+                        <dialog id="image-modal"
+                            class="backdrop:bg-black/80 bg-transparent p-0 max-w-5xl w-[95vw] overflow-hidden rounded-2xl outline-none open:flex open:flex-col open:items-center justify-center">
+                            <div class="relative w-full overflow-hidden flex justify-center items-center">
+                                <button onclick="closeModal()"
+                                    class="absolute top-4 right-4 z-50 bg-slate-900/80 text-white hover:bg-slate-800 p-2 rounded-full w-10 h-10 flex items-center justify-center border border-slate-700/50 transition-colors backdrop-blur-sm">
+                                    ✕
+                                </button>
+
+                                <div class="overflow-hidden max-h-[85vh] rounded-2xl cursor-zoom-in">
+                                    <img id="modal-img" src="" alt=""
+                                        class="w-full h-auto max-h-[85vh] object-contain transition-transform duration-200 ease-out origin-center" />
+                                </div>
+                            </div>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mt-10 text-center text-sm text-slate-400">
+            © Jesus Ramirez. Portafolio
+        </div>
+    </main>
+
+<script>
+    const modal = document.getElementById('image-modal');
+    const modalImg = document.getElementById('modal-img');
+    const imgContainer = modalImg.parentElement;
+
+    function openModal(src, alt) {
+      modalImg.src = src;
+      modalImg.alt = alt;
+      modal.showModal();
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      modal.close();
+      document.body.style.overflow = '';
+      resetZoom(); // Resetea el zoom al cerrar
+    }
+
+    // --- Lógica del Zoom ---
+    imgContainer.addEventListener('mousemove', (e) => {
+      // Cambiamos el cursor para indicar que ya está ampliado
+      imgContainer.classList.remove('cursor-zoom-in');
+      imgContainer.classList.add('cursor-zoom-out');
+
+      // Calculamos la posición del mouse relativa al contenedor
+      const rect = imgContainer.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      // Convertimos a porcentaje para mover el origen de la transformación
+      const xPercent = (x / rect.width) * 100;
+      const yPercent = (y / rect.height) * 100;
+
+      // Aplicamos el origen y la escala
+      modalImg.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+      modalImg.style.transform = 'scale(2)';
+    });
+
+    // Resetea el estado cuando el mouse sale de la imagen
+    imgContainer.addEventListener('mouseleave', resetZoom);
+
+    function resetZoom() {
+      imgContainer.classList.remove('cursor-zoom-out');
+      imgContainer.classList.add('cursor-zoom-in');
+      modalImg.style.transform = 'scale(1)';
+      modalImg.style.transformOrigin = 'center center';
+    }
+
+    // Cerrar al hacer clic fuera (en el backdrop)
+    modal.addEventListener('click', (e) => {
+      // Evitamos que se cierre si hacen clic en la imagen o su contenedor
+      if (e.target === modal) {
+        closeModal();
+      }
+    });
+
+    modal.addEventListener('cancel', () => {
+      document.body.style.overflow = '';
+      resetZoom();
+    });
+  </script>
+</body>
+
+</html>

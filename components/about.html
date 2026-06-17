@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acerca de mí | Mi Portafolio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body class="bg-slate-950 text-slate-100">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 border-b border-slate-800/70 bg-slate-950/70 backdrop-blur">
+      <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <!-- Tu foto -->
+          <img
+            src="../assets/images/avatar.png"
+            alt="Jesús Ramírez"
+            class="h-10 w-10 rounded-xl object-cover ring-1 ring-slate-800"
+          />
+          <div>
+            <p class="font-semibold leading-tight">Jesús Ramírez</p>
+            <p class="text-xs text-slate-400 leading-tight">Técnico en Telecomunicaciones · Full-Stack · Product Engineer</p>
+          </div>
+        </div>
+
+        <nav class="flex items-center gap-4 text-sm">
+          <a class="hover:text-white text-slate-300" href="../index.html">Inicio</a>
+          <a class="hover:text-white text-slate-300" href="../index.html#proyectos">Proyectos</a>
+          <a class="hover:text-white text-slate-300" href="../index.html#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 py-10">
+      <a
+        href="../index.html"
+        class="inline-flex items-center gap-2 text-slate-300 hover:text-white mb-6"
+      >
+        ← Volver al inicio
+      </a>
+
+      <!-- HERO: con imagen transparente de fondo -->
+      <section class="relative overflow-hidden rounded-3xl border border-slate-800/70 bg-slate-900/30">
+        <!-- Imagen transparente de instituto (decorativa) -->
+        <img
+          src="../assets/images/instituto-bg.png"
+          alt=""
+          aria-hidden="true"
+          class="pointer-events-none select-none absolute -top-10 -right-24 md:-right-32 w-[520px] opacity-15"
+        />
+
+        <div class="relative p-6 md:p-10">
+          <p class="text-xs text-slate-400 inline-flex items-center gap-2 rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1">
+            <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+            Conecto el mundo físico con el software moderno
+          </p>
+
+          <h1 class="mt-4 text-3xl md:text-5xl font-bold leading-tight">
+            Construyo soluciones que funcionan en la vida real,
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-fuchsia-400">no solo en el papel</span>.
+          </h1>
+
+          <p class="mt-4 text-slate-300 max-w-2xl leading-relaxed">
+            Soy un profesional híbrido: Técnico en Telecomunicaciones y programador Full-Stack / Product Engineer.
+            Mi foco es tomar problemas complejos (redes, hardware, software y procesos) y transformarlos en
+            sistemas estables, automatizados y listos para producción.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-2">
+            <span class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">
+              Hardware + Redes
+            </span>
+            <span class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">
+              Frontend/UI
+            </span>
+            <span class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">
+              IA & Automatización
+            </span>
+            <span class="inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/30 px-3 py-1 text-xs text-slate-300">
+              Production-Ready
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOQUES -->
+      <section class="mt-8 grid gap-4 lg:grid-cols-3">
+        <!-- 1 -->
+        <article class="rounded-3xl border border-slate-800/70 bg-slate-900/30 p-6">
+          <h2 class="text-2xl font-bold">Trayectoria técnica (mundo físico)</h2>
+          <p class="text-slate-300 mt-3 leading-relaxed">
+            Diseñé e implanté sistemas completos conectando infraestructura y datos.
+            En Meridiano TV, digitalicé la videoteca de la planta con un flujo masivo desde Betacam SX,
+            generando archivos optimizados (.mp4 con compresión H.264 / MPEG-4), con almacenamiento robusto
+            y control de acceso en red corporativa usando Synology.
+          </p>
+
+          <div class="mt-5 space-y-3 text-sm text-slate-300">
+            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+              <p class="text-slate-400 text-xs">Redes / Certificación</p>
+              <p class="font-semibold mt-1">Cisco CCNA · MikroTik MTCNA</p>
+            </div>
+            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+              <p class="text-slate-400 text-xs">Campo / Despliegue</p>
+              <p class="font-semibold mt-1">Enrutamiento y redes inalámbricas con Ubiquiti</p>
+            </div>
+            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+              <p class="text-slate-400 text-xs">IoT / Embebidos</p>
+              <p class="font-semibold mt-1">ESP32 y Arduino para procesamiento en tiempo real</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="rounded-3xl border border-slate-800/70 bg-slate-900/30 p-6">
+          <h2 class="text-2xl font-bold">Evolución hacia software e IA (mundo digital)</h2>
+          <p class="text-slate-300 mt-3 leading-relaxed">
+            Con el mismo rigor con el que trabajo la infraestructura, desarrollo software con interfaces modernas
+            y enfocadas en el usuario. En Innovasoft Venezuela trabajé con administración y optimización de datos,
+            consultas complejas y resolución de contingencias en SQL Server, además de construir experiencias UI
+            que vuelven “usable” lo complejo.
+          </p>
+
+          <div class="mt-5 rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+            <p class="text-slate-400 text-xs">IA aplicada (no solo “para probar”)</p>
+            <p class="font-semibold mt-1 text-slate-200">
+              Integro herramientas como Blackbox AI, API de ChatGPT y Copilot para automatizar, auditar y acelerar
+              entregas con foco en estabilidad.
+            </p>
+            <p class="text-slate-300 mt-2 text-sm leading-relaxed">
+              Mi objetivo es que la automatización reduzca tareas repetitivas, disminuya riesgos y acelere el
+              camino hacia software listo para producción.
+            </p>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="rounded-3xl border border-slate-800/70 bg-slate-900/30 p-6">
+          <h2 class="text-2xl font-bold">Filosofía de trabajo y valor</h2>
+          <p class="text-slate-300 mt-3 leading-relaxed">
+            Soy metódico y analítico: no negocio con parches. Prefiero aislar la causa raíz, diseñar una
+            solución duradera y asegurar que el sistema sea escalable.
+          </p>
+
+          <div class="mt-5 space-y-3">
+            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+              <p class="text-slate-400 text-xs">Enfoque</p>
+              <p class="font-semibold mt-1">Solucionar fallas complejas (código + hardware)</p>
+            </div>
+            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+              <p class="text-slate-400 text-xs">Optimización</p>
+              <p class="font-semibold mt-1">Reducir latencias, consumos y fricción operativa</p>
+            </div>
+            <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-4">
+              <p class="text-slate-400 text-xs">Automatización</p>
+              <p class="font-semibold mt-1">Transformar procesos manuales en flujos inteligentes</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- RESUMEN DE VALOR -->
+      <section class="mt-8 rounded-3xl border border-slate-800/70 bg-slate-900/30 p-6 md:p-10">
+        <h2 class="text-2xl md:text-3xl font-bold">Qué puedo aportar a tu proyecto o negocio</h2>
+        <p class="text-slate-300 mt-3 leading-relaxed max-w-3xl">
+          Trabajo como un puente entre equipos técnicos, operación y objetivos del negocio. Puedo traducir
+          la complejidad técnica en decisiones claras, y convertir problemas manuales y lentos en sistemas
+          automatizados y confiables.
+        </p>
+
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+          <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-5">
+            <p class="text-slate-400 text-xs">Para Ingenieros</p>
+            <p class="mt-2 font-semibold">
+              Un par técnico que lee redes, depura en tiempo real y resuelve “en campo” cuando hace falta.
+            </p>
+            <ul class="mt-3 text-sm text-slate-300 space-y-2 list-disc pl-5">
+              <li>Configuración y lectura de diagramas de red</li>
+              <li>Consultas y depuración en bases relacionales</li>
+              <li>Diagnóstico técnico cuando el hardware falla</li>
+            </ul>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-5">
+            <p class="text-slate-400 text-xs">Para Reclutadores</p>
+            <p class="mt-2 font-semibold">
+              Un perfil híbrido poco común: software + hardware + IA, con autonomía y disciplina de entrega.
+            </p>
+            <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+              Trabajo con foco en resultados, cierres de proyecto y calidad estable (“production-ready”).
+            </p>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800/70 bg-slate-950/30 p-5">
+            <p class="text-slate-400 text-xs">Para Dueños de Negocio</p>
+            <p class="mt-2 font-semibold">
+              Tomo un problema confuso o lento y lo convierto en un sistema automatizado que reduce costos y protege datos.
+            </p>
+            <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+              Mi meta es que tu organización sea más moderna, competitiva y escalable.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cierre -->
+      <section class="mt-8 rounded-3xl border border-slate-800/70 bg-slate-900/30 p-6 md:p-8">
+        <h2 class="text-2xl font-bold">Visión</h2>
+        <p class="mt-3 text-slate-300 leading-relaxed max-w-3xl">
+          Ser el pilar de innovación tecnológica de la organización: resolver fallas, optimizar sistemas y automatizar procesos
+          para permitir que el negocio escale con seguridad y eficiencia.
+        </p>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-800/70">
+      <div class="mx-auto max-w-6xl px-4 py-6 text-sm text-slate-400 flex items-center justify-between flex-wrap gap-2">
+        <span>© <span id="year"></span> Jesús Ramírez. Todos los derechos reservados.</span>
+        <span class="text-slate-500">Hecho con Tailwind CSS</span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

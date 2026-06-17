@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Si usas CDN, @tailwind no compila; esta clase igual sirve como “bridge” visual.
+   Puedes dejar estilos simples aquí o moverlos a Tailwind clases. */
+
+.tag{
+  @apply inline-flex items-center rounded-full border border-slate-800/70 bg-slate-950/40 px-3 py-1 text-xs text-slate-300;
+}
+
+.btn-outline{
+  @apply inline-flex items-center rounded-xl border border-slate-800/70 bg-slate-950/30 px-4 py-2 text-slate-300 hover:bg-slate-900 hover:border-indigo-500/50 transition;
+}
